@@ -1,0 +1,14 @@
+atividadePraticaGA = float(input("Digite o valor da atividade prática do GA:"))
+atividadeTeoricaGA = float(input("Digite o valor da atividade teórica do GB:"))
+
+provaLabGB = float(input("Digite o valor da prova em laboratório de GB:"))
+testeTeoricoGB = float(input("Digite o valor do teste teórico de GB:"))
+trabalhoGB = float(input("Digite o valor do trabalho de GB:"))
+
+notaGA = (atividadePraticaGA * 0.45) + (atividadeTeoricaGA * 0.55)
+
+notaGB = (provaLabGB * 0.6) + (testeTeoricoGB * 0.2) + (trabalhoGB * 0.2)
+
+notaFinal = (notaGA * 0.33) + (notaGB * 0.67)
+
+print("Nota final:", notaFinal)
