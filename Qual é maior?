@@ -1,0 +1,8 @@
+valor1 = int(input("digite o primeiro valor: "))
+valor2 = int(input("digite o segundo valor: "))
+
+if valor1 > valor2:
+    print("Valor", valor1, "é maior que", valor2)
+else:
+    print("Valor", valor2, "é maior que", valor1)
+    
